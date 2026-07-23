@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff4ff; /* Light Blue */
+    color: #1f1f1f;
+    line-height: 1.6;
+}
+
+/* ==========================
+   Header
+========================== */
+
+header {
+    background: linear-gradient(90deg, #0077ff, #6a00ff);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+header h1 {
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+
+/* ==========================
+   Navigation
+========================== */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #dff4ff;
+    text-shadow: 0 0 8px white;
+}
+
+/* ==========================
+   Main Content
+========================== */
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+/* ==========================
+   Headings
+========================== */
+
+h2 {
+    color: #0077ff;
+    border-bottom: 3px solid #6a00ff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #6a00ff;
+}
+
+/* ==========================
+   Paragraphs
+========================== */
+
+p {
+    font-size: 17px;
+}
+
+/* ==========================
+   Lists
+========================== */
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer {
+    background: #0077ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ==========================
+   Buttons (Future Use)
+========================== */
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #6a00ff;
+}
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media (max-width: 768px) {
+
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
